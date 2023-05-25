@@ -6,7 +6,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.evolution.oplus.OPlusExtras"
+    package="com.oplus.settings.OPlusExtras"
     android:sharedUserId="android.uid.system"
     android:versionCode="7"
     android:versionName="7.5">
@@ -18,13 +18,13 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <permission
-        android:name="org.evolution.oplus.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
+        android:name="com.oplus.settings.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
         android:protectionLevel="signatureOrSystem" />
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-    <protected-broadcast android:name="org.evolution.oplus.OPlusExtras.slider.UPDATE_SLIDER_POSITION" />
-    <protected-broadcast android:name="org.evolution.oplus.OPlusExtras.slider.UPDATE_SLIDER_SETTINGS" />
-    <protected-broadcast android:name="org.evolution.oplus.OPlusExtras.touch.UPDATE_SETTINGS" />
+    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_SETTINGS" />
+    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.touch.UPDATE_SETTINGS" />
 
     <uses-sdk
         android:minSdkVersion="28"
@@ -84,7 +84,7 @@
         </activity>
         <activity
             android:name=".touch.ScreenOffLaunchGestureActivity"
-            android:permission="org.evolution.oplus.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
+            android:permission="com.oplus.settings.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/touchscreen_gesture_settings_title"
@@ -177,7 +177,7 @@
         <!-- Search indexing -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="org.evolution.oplus.OPlusExtras"
+            android:authorities="com.oplus.settings.OPlusExtras"
             android:exported="true"
             android:grantUriPermissions="true"
             android:multiprocess="false"

@@ -6,7 +6,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:settings="http://schemas.android.com/apk/res/org.evolution.oplus.OPlusExtras"
+	xmlns:settings="http://schemas.android.com/apk/res/com.oplus.settings.OPlusExtras"
  	android.title="@string/oplus_extras_title">
 
     <!-- Start of alert slider Category -->
@@ -68,7 +68,7 @@
             android:summary="@string/ambient_display_gestures_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.doze.DozeSettingsActivity" />
+                    android:targetClass="com.oplus.settings.OPlusExtras.doze.DozeSettingsActivity" />
         </Preference>
 
         <Preference
@@ -77,8 +77,8 @@
             android:summary="@string/kcal_settings_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.oplus.OPlusExtras"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.kcal.KcalSettingsActivity" />
+                    android:targetPackage="com.oplus.settings.OPlusExtras"
+                    android:targetClass="com.oplus.settings.OPlusExtras.kcal.KcalSettingsActivity" />
         </Preference>
 
         <Preference
@@ -87,8 +87,8 @@
             android:summary="@string/colorspace_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.oplus.OPlusExtras"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.colorspace.ColorSpaceActivity" />
+                    android:targetPackage="com.oplus.settings.OPlusExtras"
+                    android:targetClass="com.oplus.settings.OPlusExtras.colorspace.ColorSpaceActivity" />
         </Preference>
 
         <Preference
@@ -97,8 +97,8 @@
             android:summary="@string/refresh_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.oplus.OPlusExtras"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.refreshrate.RefreshActivity" />
+                    android:targetPackage="com.oplus.settings.OPlusExtras"
+                    android:targetClass="com.oplus.settings.OPlusExtras.refreshrate.RefreshActivity" />
         </Preference>
 
         <SwitchPreference
@@ -117,7 +117,7 @@
             android:title="@string/auto_hbm_title"
             android:summary="@string/auto_hbm_summary" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.AutoHBMThresholdPreference
+        <com.oplus.settings.OPlusExtras.preferences.AutoHBMThresholdPreference
             android:key="auto_hbm_threshold"
             android:title="@string/auto_hbm_threshold_title"
             android:summary="@string/auto_hbm_threshold_summary" />
@@ -128,7 +128,7 @@
             android:summary="@string/hbm_mode_warning" 
             android:persistent="false" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.MaxBrightnessPreference
+        <com.oplus.settings.OPlusExtras.preferences.MaxBrightnessPreference
             android:key="max_brightness"
             android:title="@string/max_brightness_title"
             android:summary="@string/max_brightness_summary" />
@@ -157,7 +157,7 @@
         android:key="gpu"
         android:title="@string/gpu_title">
 
-        <org.evolution.oplus.OPlusExtras.preferences.AdrenoBoostPreference
+        <com.oplus.settings.OPlusExtras.preferences.AdrenoBoostPreference
             android:key="adrenoboost"
             android:title="@string/adrenoboost_title"
             android:summary="@string/adrenoboost_summary" />
@@ -190,7 +190,7 @@
             android:entries="@array/fps_info_color_entries"
             android:entryValues="@array/fps_info_color_values" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.CustomSeekBarPreference
+        <com.oplus.settings.OPlusExtras.preferences.CustomSeekBarPreference
             android:key="fps_info_text_size"
             android:title="@string/fps_info_text_size_title"
             android:persistent="true"
@@ -227,8 +227,8 @@
             android:summary="@string/touchscreen_gesture_settings_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.oplus.OPlusExtras"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings" />
+                    android:targetPackage="com.oplus.settings.OPlusExtras"
+                    android:targetClass="com.oplus.settings.OPlusExtras.touch.TouchscreenGestureSettings" />
         </Preference>
 
         <SwitchPreference
@@ -259,8 +259,8 @@
             android:summary="@string/jitter_test_summary"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.oplus.OPlusExtras"
-                    android:targetClass="org.evolution.oplus.OPlusExtras.uibench.JitterTestActivity" />
+                    android:targetPackage="com.oplus.settings.OPlusExtras"
+                    android:targetClass="com.oplus.settings.OPlusExtras.uibench.JitterTestActivity" />
         </Preference>
     </PreferenceCategory>
 
@@ -291,7 +291,7 @@
         android:key="vibrator"
         android:title="@string/category_vibrator">
 
-        <org.evolution.oplus.OPlusExtras.preferences.VibratorStrengthPreference
+        <com.oplus.settings.OPlusExtras.preferences.VibratorStrengthPreference
             android:key="vib_strength"
             android:title="@string/vib_strength_title"
             android:summary="@string/vib_strength_summary" />

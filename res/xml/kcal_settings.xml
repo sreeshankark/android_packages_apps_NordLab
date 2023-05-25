@@ -4,38 +4,38 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:settings="http://schemas.android.com/apk/res/org.evolution.oplus.OPlusExtras"
+	xmlns:settings="http://schemas.android.com/apk/res/com.oplus.settings.OPlusExtras"
  	android.title="@string/kcal_settings_title">
 
     <PreferenceCategory
         android:key="kcal_values"
         android:title="@string/kcal_settings">
 
-        <org.evolution.oplus.OPlusExtras.preferences.RedPreference
+        <com.oplus.settings.OPlusExtras.preferences.RedPreference
             android:key="red"
             android:title="@string/red_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.GreenPreference
+        <com.oplus.settings.OPlusExtras.preferences.GreenPreference
             android:key="green"
             android:title="@string/green_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.BluePreference
+        <com.oplus.settings.OPlusExtras.preferences.BluePreference
             android:key="blue"
             android:title="@string/blue_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.SaturationPreference
+        <com.oplus.settings.OPlusExtras.preferences.SaturationPreference
             android:key="saturation"
             android:title="@string/saturation_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.HuePreference
+        <com.oplus.settings.OPlusExtras.preferences.HuePreference
             android:key="hue"
             android:title="@string/hue_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.ValuePreference
+        <com.oplus.settings.OPlusExtras.preferences.ValuePreference
             android:key="value"
             android:title="@string/value_title" />
 
-        <org.evolution.oplus.OPlusExtras.preferences.ContrastPreference
+        <com.oplus.settings.OPlusExtras.preferences.ContrastPreference
             android:key="contrast"
             android:title="@string/contrast_title" />
     </PreferenceCategory>
