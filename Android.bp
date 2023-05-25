@@ -24,6 +24,8 @@ android_app {
         "androidx.core_core",
         "androidx.preference_preference",
         "particles",
+        "org.lineageos.platform.internal",
+        "org.lineageos.settings.resources",
     ],
 
     resource_dirs: ["res"],
