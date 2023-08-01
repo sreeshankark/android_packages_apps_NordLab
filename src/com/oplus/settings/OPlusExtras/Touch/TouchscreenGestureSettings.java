@@ -22,8 +22,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.ancient.hardware.LineageHardwareManager;
-import com.android.internal.ancient.hardware.TouchscreenGesture;
+import lineageos.hardware.LineageHardwareManager;
+import lineageos.hardware.TouchscreenGesture;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
