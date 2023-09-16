@@ -165,6 +165,23 @@
         <item>79</item>
         <item>80</item>
     </string-array>
+    
+    <!-- NR Mode Switch -->
+    <string-array name="nr_mode_entries" translatable="false">
+        <item>@string/nr_mode_auto</item>
+        <item>@string/nr_mode_nsa_only</item>
+        <item>@string/nr_mode_nsa_preferred</item>
+        <item>@string/nr_mode_sa_only</item>
+        <item>@string/nr_mode_sa_preferred</item>
+    </string-array>
+
+    <string-array name="nr_mode_values" translatable="false">
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
     <!-- FPS Info -->
     <string-array name="fps_info_color_entries" translatable="false">

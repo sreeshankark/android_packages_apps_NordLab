@@ -100,6 +100,9 @@ public class OPlusExtras extends PreferenceFragment
     public static final String KEY_CATEGORY_GPU = "gpu";
     public static final String KEY_ADRENOBOOST = "adrenoboost";
     private AdrenoBoostPreference mAdrenoBoost;
+    
+    public static final String KEY_CATEGORY_NETWORK = "network";
+    public static final String KEY_NR_MODE_SWITCH = "nr_mode_switch";
 
     public static final String KEY_CATEGORY_POWER = "power";
     public static final String KEY_POWERSHARE_SWITCH = "powershare_mode";
@@ -344,9 +347,23 @@ public class OPlusExtras extends PreferenceFragment
         if (!gpuCategory) {
             getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_GPU));
         }
+        
+        boolean networkCategory = false;
+        
+        // Network
+        networkCategory = networkCategory | isFeatureSupported(context, R.bool.config_deviceSupportsNrModeSwitch);
+        if (isFeatureSupported(context, R.bool.config_deviceSupportsNrModeSwitch)) {
+        }
+        else {
+           findPreference(KEY_NR_MODE_SWITCH).setVisible(false);
+        }
 
+        if (!networkCategory) {
+            getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_NETWORK));
+        }
+        
         boolean powerCategory = false;
-
+         
         // Powershare
         powerCategory = powerCategory | isFeatureSupported(context, R.bool.config_deviceSupportsPowerShare);
         if (isFeatureSupported(context, R.bool.config_deviceSupportsPowerShare)) {
@@ -517,7 +534,7 @@ public class OPlusExtras extends PreferenceFragment
             mFpsInfo.setChecked(isFPSOverlayRunning());
         }
     }
-
+    
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mAutoHBMSwitch) {
@@ -566,9 +583,8 @@ public class OPlusExtras extends PreferenceFragment
                 }
             }
             return true;
-
-            }
-
+        }    
+        
         String key = preference.getKey();
         switch (key) {
             case SliderConstants.NOTIF_SLIDER_USAGE_KEY:
@@ -872,7 +888,7 @@ public class OPlusExtras extends PreferenceFragment
         context.stopService(fpsinfo);
         context.startService(fpsinfo);
     }
-
+    
     public static class WarningDialogFragment extends DialogFragment {
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
