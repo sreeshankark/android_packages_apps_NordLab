@@ -28,6 +28,9 @@
 
     <!-- Whether device supports Power Efficient Workqueue -->
     <bool name="config_deviceSupportsPowerEfficientWorkqueue">false</bool>
+    
+    <!-- Whether device supports NR Mode Switch -->
+    <bool name="config_deviceSupportsNrModeSwitch">false</bool>
 
     <!-- Whether device supports MSM Touchboost -->
     <bool name="config_deviceSupportsTouchBoost">false</bool>

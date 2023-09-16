@@ -12,6 +12,7 @@
     android:versionName="7.5">
 
     <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -22,6 +23,7 @@
         android:protectionLevel="signatureOrSystem" />
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
+    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.nrmode.SIM_STATE_CHANGED" />
     <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_POSITION" />
     <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_SETTINGS" />
     <protected-broadcast android:name="com.oplus.settings.OPlusExtras.touch.UPDATE_SETTINGS" />
@@ -46,7 +48,7 @@
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
+        
         <activity 
             android:name=".OPlusExtras" />
         <activity
@@ -167,6 +169,22 @@
         <!-- FPS info service -->
         <service
             android:name=".services.FPSInfoService"
+            android:exported="false" />
+            
+        <!-- NR mode Settings Activity -->
+        <activity
+            android:name=".nrmode.NrModeSettingsActivity"
+            android:exported="true"
+            android:label="@string/nr_mode_switch_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Sim Card Listener service -->
+        <service
+            android:name=".services.SimCardListenerService"
             android:exported="false" />
 
         <!-- Auto HBM service -->

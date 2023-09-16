@@ -10,8 +10,10 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.UserHandle;
 import android.provider.Settings;
 import androidx.preference.PreferenceManager;
+import android.util.Log;
 
 import com.oplus.settings.OPlusExtras.colorspace.ColorSpaceUtils;
 import com.oplus.settings.OPlusExtras.doze.DozeUtils;
@@ -21,6 +23,7 @@ import com.oplus.settings.OPlusExtras.preferences.*;
 import com.oplus.settings.OPlusExtras.refreshrate.RefreshUtils;
 import com.oplus.settings.OPlusExtras.services.FPSInfoService;
 import com.oplus.settings.OPlusExtras.touch.TouchscreenGestureSettings;
+import com.oplus.settings.OPlusExtras.services.SimCardListenerService;
 
 public class Startup extends BroadcastReceiver {
 
@@ -95,8 +98,13 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
         restore(USB2FastChargeModeSwitch.getFile(context), enabled);
         }
+        enabled = sharedPrefs.getBoolean(OPlusExtras.KEY_NR_MODE_SWITCH, false);
+        if (enabled) {
+        Log.d(TAG, "Start SimCardListenerService");
+        context.startServiceAsUser(new Intent(context, SimCardListenerService.class), UserHandle.SYSTEM);
+        }
     }
-
+    
     private void restore(String file, boolean enabled) {
         if (file == null) {
             return;
