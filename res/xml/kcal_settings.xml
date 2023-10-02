@@ -4,38 +4,38 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:settings="http://schemas.android.com/apk/res/com.oplus.settings.OPlusExtras"
+	xmlns:settings="http://schemas.android.com/apk/res/com.oneplus.avicii.NordLab"
  	android.title="@string/kcal_settings_title">
 
     <PreferenceCategory
         android:key="kcal_values"
         android:title="@string/kcal_settings">
 
-        <com.oplus.settings.OPlusExtras.preferences.RedPreference
+        <com.oneplus.avicii.NordLab.preferences.RedPreference
             android:key="red"
             android:title="@string/red_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.GreenPreference
+        <com.oneplus.avicii.NordLab.preferences.GreenPreference
             android:key="green"
             android:title="@string/green_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.BluePreference
+        <com.oneplus.avicii.NordLab.preferences.BluePreference
             android:key="blue"
             android:title="@string/blue_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.SaturationPreference
+        <com.oneplus.avicii.NordLab.preferences.SaturationPreference
             android:key="saturation"
             android:title="@string/saturation_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.HuePreference
+        <com.oneplus.avicii.NordLab.preferences.HuePreference
             android:key="hue"
             android:title="@string/hue_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.ValuePreference
+        <com.oneplus.avicii.NordLab.preferences.ValuePreference
             android:key="value"
             android:title="@string/value_title" />
 
-        <com.oplus.settings.OPlusExtras.preferences.ContrastPreference
+        <com.oneplus.avicii.NordLab.preferences.ContrastPreference
             android:key="contrast"
             android:title="@string/contrast_title" />
     </PreferenceCategory>

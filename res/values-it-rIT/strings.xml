@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Extra OnePlus</string>
-    <string name="oplus_extras_summary">Impostazioni specifiche del dispositivo</string>
-    <string name="oplus_extras_warning_title">Attenzione</string>
-    <string name="oplus_extras_warning_text">Gran parte di queste funzionalità si affidano a nodi specifici del kernel per poter funzionare. Installando un kernel personalizzato rischi di perdere l\'accesso ad alcune funzionalità. Sei stato avvisato!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Extra OnePlus</string>
+    <string name="nord_lab_summary">Impostazioni specifiche del dispositivo</string>
+    <string name="nord_lab_warning_title">Attenzione</string>
+    <string name="nord_lab_warning_text">Gran parte di queste funzionalità si affidano a nodi specifici del kernel per poter funzionare. Installando un kernel personalizzato rischi di perdere l\'accesso ad alcune funzionalità. Sei stato avvisato!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Slider notifiche</string>
     <string name="notification_slider_title">Impostazioni slider notifiche</string>

@@ -6,10 +6,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oplus.settings.OPlusExtras"
+    package="com.oneplus.avicii.NordLab"
     android:sharedUserId="android.uid.system"
-    android:versionCode="7"
-    android:versionName="7.5">
+    android:versionCode="8"
+    android:versionName="8.1">
 
     <uses-permission android:name="android.permission.INJECT_EVENTS" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
@@ -19,14 +19,14 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <permission
-        android:name="com.oplus.settings.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
+        android:name="com.oneplus.avicii.NordLab.touch.TRIGGER_SCREEN_OFF_GESTURE"
         android:protectionLevel="signatureOrSystem" />
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.nrmode.SIM_STATE_CHANGED" />
-    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_POSITION" />
-    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.slider.UPDATE_SLIDER_SETTINGS" />
-    <protected-broadcast android:name="com.oplus.settings.OPlusExtras.touch.UPDATE_SETTINGS" />
+    <protected-broadcast android:name="com.oneplus.avicii.NordLab.nrmode.SIM_STATE_CHANGED" />
+    <protected-broadcast android:name="com.oneplus.avicii.NordLab.slider.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name="com.oneplus.avicii.NordLab.slider.UPDATE_SLIDER_SETTINGS" />
+    <protected-broadcast android:name="com.oneplus.avicii.NordLab.touch.UPDATE_SETTINGS" />
 
     <uses-sdk
         android:minSdkVersion="28"
@@ -34,7 +34,7 @@
 
     <application
         android:icon="@drawable/ic_launcher_settings"
-        android:label="@string/oplus_extras_title"
+        android:label="@string/nord_lab_title"
         android:theme="@style/Theme.SubSettingsBase"
         android:supportsRtl="true"
         android:defaultToDeviceProtectedStorage="true"
@@ -50,29 +50,29 @@
         </receiver>
         
         <activity 
-            android:name=".OPlusExtras" />
+            android:name=".NordLab" />
         <activity
             android:name=".slider.KeyHandler" />
         <activity
             android:name=".touch.KeyHandler" />
 
-        <!-- OPlusExtras -->
+        <!-- NordLab -->
         <activity
-            android:name=".OPlusExtrasActivity"
-            android:label="@string/oplus_extras_title">
+            android:name=".NordLabActivity"
+            android:label="@string/nord_lab_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
 
             <meta-data
                 android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_oplus_extras" />
+                android:resource="@drawable/ic_nord_lab" />
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/oplus_extras_summary" />
+                android:resource="@string/nord_lab_summary" />
         </activity>
 
         <!-- Touch Gesture Settings Activity -->
@@ -86,7 +86,7 @@
         </activity>
         <activity
             android:name=".touch.ScreenOffLaunchGestureActivity"
-            android:permission="com.oplus.settings.OPlusExtras.touch.TRIGGER_SCREEN_OFF_GESTURE"
+            android:permission="com.oneplus.avicii.NordLab.touch.TRIGGER_SCREEN_OFF_GESTURE"
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/touchscreen_gesture_settings_title"
@@ -195,7 +195,7 @@
         <!-- Search indexing -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="com.oplus.settings.OPlusExtras"
+            android:authorities="com.oneplus.avicii.NordLab"
             android:exported="true"
             android:grantUriPermissions="true"
             android:multiprocess="false"

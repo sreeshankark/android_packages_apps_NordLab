@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Extras del dispositivo</string>
-    <string name="oplus_extras_summary">Configurar opciones específicas de este dispositivo</string>
-    <string name="oplus_extras_warning_title">Aviso</string>
-    <string name="oplus_extras_warning_text">Muchas de estas características dependen de nodos específicos del kernel para funcionar. Al flashear un kernel personalizado, podrías perder algunas características. ¡Has sido advertido!</string>
-    <string name="oplus_extras_dialog">Ok</string>
+    <string name="nord_lab_title">Extras del dispositivo</string>
+    <string name="nord_lab_summary">Configurar opciones específicas de este dispositivo</string>
+    <string name="nord_lab_warning_title">Aviso</string>
+    <string name="nord_lab_warning_text">Muchas de estas características dependen de nodos específicos del kernel para funcionar. Al flashear un kernel personalizado, podrías perder algunas características. ¡Has sido advertido!</string>
+    <string name="nord_lab_dialog">Ok</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Control deslizante de alerta</string>
     <string name="notification_slider_title">Configuración del control deslizante de alerta</string>

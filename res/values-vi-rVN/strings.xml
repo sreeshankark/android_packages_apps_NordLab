@@ -18,11 +18,11 @@
 -->
 <resources>
     <!-- Oplus Extras -->
-    <string name="oplus_extras_title">Tính năng bổ sung</string>
-    <string name="oplus_extras_summary">Điều chỉnh cài đặt thiết bị</string>
-    <string name="oplus_extras_warning_title">Cảnh báo</string>
-    <string name="oplus_extras_warning_text">Những tính năng này chủ yếu dựa vào các node của kernel để hoạt động. Các tính năng này có thể không hoạt động nếu bạn flash kernel khác!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Tính năng bổ sung</string>
+    <string name="nord_lab_summary">Điều chỉnh cài đặt thiết bị</string>
+    <string name="nord_lab_warning_title">Cảnh báo</string>
+    <string name="nord_lab_warning_text">Những tính năng này chủ yếu dựa vào các node của kernel để hoạt động. Các tính năng này có thể không hoạt động nếu bạn flash kernel khác!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Thanh trượt chuông</string>
     <string name="notification_slider_title">Cài đặt thanh trượt chuông</string>
@@ -174,7 +174,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Bản Đồ Google</string>
     <string name="touchscreen_gesture_action_google_search">Google Tìm kiếm</string>
     <string name="game_mode_title">Chế độ trò chơi</string>

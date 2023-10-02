@@ -18,11 +18,11 @@
 -->
 <resources>
     <!-- Oplus Extras -->
-    <string name="oplus_extras_title">إضافات الجهاز</string>
-    <string name="oplus_extras_summary">اضبط إعدادات الجهاز</string>
-    <string name="oplus_extras_warning_title">تحذير</string>
-    <string name="oplus_extras_warning_text">تعتمد أغلبية هذه الميزات على عقد نواة محددة من أجل العمل. من خلال وميض نواة مخصصة، تخاطر باحتمال فقدان الوصول إلى بعض الميزات. لقد تم تحذيرك!</string>
-    <string name="oplus_extras_dialog">موافق</string>
+    <string name="nord_lab_title">إضافات الجهاز</string>
+    <string name="nord_lab_summary">اضبط إعدادات الجهاز</string>
+    <string name="nord_lab_warning_title">تحذير</string>
+    <string name="nord_lab_warning_text">تعتمد أغلبية هذه الميزات على عقد نواة محددة من أجل العمل. من خلال وميض نواة مخصصة، تخاطر باحتمال فقدان الوصول إلى بعض الميزات. لقد تم تحذيرك!</string>
+    <string name="nord_lab_dialog">موافق</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">مزلاق التنبيه</string>
     <string name="notification_slider_title">إعدادات مزلاق التنبيه</string>

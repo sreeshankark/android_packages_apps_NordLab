@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Cihaz ekstraları</string>
-    <string name="oplus_extras_summary">Cihaza özel seçenekleri ayarlayın</string>
-    <string name="oplus_extras_warning_title">Uyarı</string>
-    <string name="oplus_extras_warning_text">Bu özelliklerin çoğu özel kernel parametreleri gerektirir. Özel bir kernel yüklerseniz bazı özellikleri kaybetme riskiniz olur. Dikkatli olun!</string>
-    <string name="oplus_extras_dialog">Tamam</string>
+    <string name="nord_lab_title">Cihaz ekstraları</string>
+    <string name="nord_lab_summary">Cihaza özel seçenekleri ayarlayın</string>
+    <string name="nord_lab_warning_title">Uyarı</string>
+    <string name="nord_lab_warning_text">Bu özelliklerin çoğu özel kernel parametreleri gerektirir. Özel bir kernel yüklerseniz bazı özellikleri kaybetme riskiniz olur. Dikkatli olun!</string>
+    <string name="nord_lab_dialog">Tamam</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Uyarı kaydırıcısı</string>
     <string name="notification_slider_title">Uyarı kaydırıcısı ayarları</string>

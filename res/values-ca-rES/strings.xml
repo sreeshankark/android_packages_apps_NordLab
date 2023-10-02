@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Extres del dispositiu</string>
-    <string name="oplus_extras_summary">Configurar opcions específiques d\' aquest dispositiu</string>
-    <string name="oplus_extras_warning_title">Avís</string>
-    <string name="oplus_extras_warning_text">Moltes d\' aquestes característiques depenen de nodes específics del kernel per funcionar. En flashear un kernel personalitzat, podries perdre algunes característiques. Has estat advertit!</string>
-    <string name="oplus_extras_dialog">Ok</string>
+    <string name="nord_lab_title">Extres del dispositiu</string>
+    <string name="nord_lab_summary">Configurar opcions específiques d\' aquest dispositiu</string>
+    <string name="nord_lab_warning_title">Avís</string>
+    <string name="nord_lab_warning_text">Moltes d\' aquestes característiques depenen de nodes específics del kernel per funcionar. En flashear un kernel personalitzat, podries perdre algunes característiques. Has estat advertit!</string>
+    <string name="nord_lab_dialog">Ok</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Control lliscant d\' alerta</string>
     <string name="notification_slider_title">Configuració del control lliscant d\' alerta</string>

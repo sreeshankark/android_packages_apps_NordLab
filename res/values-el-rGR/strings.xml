@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Πρόσθετα Συσκευής</string>
-    <string name="oplus_extras_summary">Προσαρμόστε τις ειδικές ρυθμίσεις της συσκευής</string>
-    <string name="oplus_extras_warning_title">Προσοχή</string>
-    <string name="oplus_extras_warning_text">Η πλειονότητα αυτών των χαρακτηριστικών βασίζεται σε συγκεκριμένους κόμβους kernel για να λειτουργήσει. Με την εγκατάσταση ενός προσαρμοσμένου kernel, κινδυνεύετε να χάσετε την πρόσβαση σε ορισμένες λειτουργίες. Έχετε προειδοποιηθεί!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Πρόσθετα Συσκευής</string>
+    <string name="nord_lab_summary">Προσαρμόστε τις ειδικές ρυθμίσεις της συσκευής</string>
+    <string name="nord_lab_warning_title">Προσοχή</string>
+    <string name="nord_lab_warning_text">Η πλειονότητα αυτών των χαρακτηριστικών βασίζεται σε συγκεκριμένους κόμβους kernel για να λειτουργήσει. Με την εγκατάσταση ενός προσαρμοσμένου kernel, κινδυνεύετε να χάσετε την πρόσβαση σε ορισμένες λειτουργίες. Έχετε προειδοποιηθεί!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Διακόπτης Ειδοποιήσεων</string>
     <string name="notification_slider_title">Ρυθμίσεις Διακόπτη Ειδοποιήσεων</string>
@@ -189,7 +189,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Χάρτες Google</string>
     <string name="touchscreen_gesture_action_google_search">Αναζήτηση Google</string>
     <string name="game_mode_title">Λειτουργία παιχνιδιού</string>

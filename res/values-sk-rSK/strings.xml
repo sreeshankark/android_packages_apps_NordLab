@@ -18,8 +18,8 @@
 -->
 <resources>
     <!-- Oplus Extras -->
-    <string name="oplus_extras_title">Ďalšie možnosti zariadenia</string>
-    <string name="oplus_extras_summary">Upravte nastavenia špecifické pre zariadenie</string>
+    <string name="nord_lab_title">Ďalšie možnosti zariadenia</string>
+    <string name="nord_lab_summary">Upravte nastavenia špecifické pre zariadenie</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Posuvník upozornení</string>
     <string name="notification_slider_title">Nastavenia posuvníka upozornení</string>

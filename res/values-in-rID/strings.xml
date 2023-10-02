@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Ekstra Perangkat</string>
-    <string name="oplus_extras_summary">Sesuaikan pengaturan khusus perangkat</string>
-    <string name="oplus_extras_warning_title">Peringatan</string>
-    <string name="oplus_extras_warning_text">Sebagian besar fitur ini bergantung pada node kernel tertentu agar dapat berfungsi. Dengan mem-flash kernel khusus, Anda berisiko kehilangan akses ke beberapa fitur. Anda telah diperingatkan!</string>
-    <string name="oplus_extras_dialog">OKE</string>
+    <string name="nord_lab_title">Ekstra Perangkat</string>
+    <string name="nord_lab_summary">Sesuaikan pengaturan khusus perangkat</string>
+    <string name="nord_lab_warning_title">Peringatan</string>
+    <string name="nord_lab_warning_text">Sebagian besar fitur ini bergantung pada node kernel tertentu agar dapat berfungsi. Dengan mem-flash kernel khusus, Anda berisiko kehilangan akses ke beberapa fitur. Anda telah diperingatkan!</string>
+    <string name="nord_lab_dialog">OKE</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Slider Peringatan</string>
     <string name="notification_slider_title">Setelan Slider Peringatan</string>

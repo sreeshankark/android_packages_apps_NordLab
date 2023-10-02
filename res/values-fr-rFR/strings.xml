@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">OPlus Extras</string>
-    <string name="oplus_extras_summary">Ajuster les paramètres spécifiques à l\'appareil</string>
-    <string name="oplus_extras_warning_title">Avertissement</string>
-    <string name="oplus_extras_warning_text">La plupart de ces fonctionnalités s\'appuient sur des nœuds spécifiques du noyau pour fonctionner. En installant un noyau personnalisé, vous risquez de perdre l\'accès à certaines fonctionnalités. Vous avez été averti !</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">OPlus Extras</string>
+    <string name="nord_lab_summary">Ajuster les paramètres spécifiques à l\'appareil</string>
+    <string name="nord_lab_warning_title">Avertissement</string>
+    <string name="nord_lab_warning_text">La plupart de ces fonctionnalités s\'appuient sur des nœuds spécifiques du noyau pour fonctionner. En installant un noyau personnalisé, vous risquez de perdre l\'accès à certaines fonctionnalités. Vous avez été averti !</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Curseur d\'alertes</string>
     <string name="notification_slider_title">Paramètres du curseur d\'alerte</string>
@@ -211,7 +211,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
     <string name="touchscreen_gesture_action_google_search">Recherche Google</string>
     <string name="game_mode_title">Mode Jeu</string>

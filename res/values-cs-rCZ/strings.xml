@@ -18,11 +18,11 @@
 -->
 <resources>
     <!-- Oplus Extras -->
-    <string name="oplus_extras_title">Extra funkce zařízení</string>
-    <string name="oplus_extras_summary">Upravte konkrétní nastavení zařízení</string>
-    <string name="oplus_extras_warning_title">Varování</string>
-    <string name="oplus_extras_warning_text">Většina těchto funkcí je pro svou funkci závislá na konkrétních uzlech jádra. Při instalaci vlastního jádra riskujete, že ztratíte přístup k některým funkcím. Byli jste varováni!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Extra funkce zařízení</string>
+    <string name="nord_lab_summary">Upravte konkrétní nastavení zařízení</string>
+    <string name="nord_lab_warning_title">Varování</string>
+    <string name="nord_lab_warning_text">Většina těchto funkcí je pro svou funkci závislá na konkrétních uzlech jádra. Při instalaci vlastního jádra riskujete, že ztratíte přístup k některým funkcím. Byli jste varováni!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Posuvník oznámení</string>
     <string name="notification_slider_title">Nastavení posuvníku oznámení</string>
@@ -174,7 +174,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
     <string name="touchscreen_gesture_action_google_search">Vyhledávání Google</string>
     <string name="game_mode_title">Herní režim</string>

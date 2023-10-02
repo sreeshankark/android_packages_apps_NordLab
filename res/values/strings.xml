@@ -6,12 +6,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- OPlus Extras -->
-    <string name="oplus_extras_title">OPlus Extras</string>
-    <string name="oplus_extras_summary">Adjust device specific settings</string>
-    <string name="oplus_extras_warning_title">Warning</string>
-    <string name="oplus_extras_warning_text">A majority of these features rely on specific kernel nodes in order to function. By flashing a custom kernel, you risk the possibility of losing access to some features. You have been warned!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <!-- Nord Lab -->
+    <string name="nord_lab_title">Nord Lab</string>
+    <string name="nord_lab_summary">Adjust device specific settings of your avicii</string>
+    <string name="nord_lab_warning_title">Warning</string>
+    <string name="nord_lab_warning_text">A majority of these features rely on specific kernel nodes in order to function. By flashing a custom kernel, you risk the possibility of losing access to some features. You have been warned!</string>
+    <string name="nord_lab_dialog">OK</string>
 	
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Alert slider</string>
@@ -239,7 +239,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
     <string name="touchscreen_gesture_action_google_search">Google Search</string>
     <string name="game_mode_title">Game mode</string>

@@ -92,11 +92,11 @@
         <item>0</item>
         <item>3</item>
     </integer-array>
-    <integer name="vibrator_strength_preference_interval">100</integer>
+    <integer name="vibrator_strength_preference_interval">1</integer>
 
     <!-- Vibration test pattern (1, 2) -->
     <integer-array name="test_vibration_pattern">
         <item>0</item>
-        <item>250</item>
+        <item>50</item>
     </integer-array>
 </resources>

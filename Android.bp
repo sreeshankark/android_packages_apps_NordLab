@@ -5,7 +5,7 @@
 //
 
 android_app {
-    name: "OPlusExtras",
+    name: "NordLab",
 
     defaults: [
         "SettingsLibDefaults",
@@ -20,7 +20,7 @@ android_app {
     system_ext_specific: true,
     privileged: true,
     required: [
-        "privapp_whitelist_OPlusExtras",
+        "privapp_whitelist_NordLab",
     ],
 
     static_libs: [
@@ -40,9 +40,9 @@ android_app {
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_OPlusExtras",
+    name: "privapp_whitelist_NordLab",
     sub_dir: "permissions",
-    src: "privapp-permissions-com.oplus.settings.OPlusExtras.xml",
+    src: "privapp-permissions-com.oneplus.avicii.NordLab.xml",
     filename_from_src: true,
     system_ext_specific: true,
 }

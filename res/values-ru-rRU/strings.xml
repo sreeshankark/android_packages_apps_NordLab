@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Дополнительные настройки</string>
-    <string name="oplus_extras_summary">Настройка специфичных параметров устройства</string>
-    <string name="oplus_extras_warning_title">Предупреждение</string>
-    <string name="oplus_extras_warning_text">Большинство этих функций для своей работы зависят от определенных узлов ядра. Прошивая пользовательское ядро, вы рискуете потерять доступ к некоторым функциям. Вы были предупреждены!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Дополнительные настройки</string>
+    <string name="nord_lab_summary">Настройка специфичных параметров устройства</string>
+    <string name="nord_lab_warning_title">Предупреждение</string>
+    <string name="nord_lab_warning_text">Большинство этих функций для своей работы зависят от определенных узлов ядра. Прошивая пользовательское ядро, вы рискуете потерять доступ к некоторым функциям. Вы были предупреждены!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Слайдер оповещений</string>
     <string name="notification_slider_title">Параметры слайдера уведомлений</string>
@@ -211,7 +211,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Google Карты</string>
     <string name="touchscreen_gesture_action_google_search">Google Поиск</string>
     <string name="game_mode_title">Игровой режим</string>

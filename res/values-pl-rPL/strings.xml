@@ -7,11 +7,11 @@
 -->
 <resources>
     <!-- OPlus Extras -->
-    <string name="oplus_extras_title">Dodatkowe funkcje OnePlusa</string>
-    <string name="oplus_extras_summary">Dostosuj ustawienia urządzenia</string>
-    <string name="oplus_extras_warning_title">Uwaga</string>
-    <string name="oplus_extras_warning_text">Większość z tych funkcji zależy od określonych węzłów jądra. Wgrywając własne jądro ryzykujesz utratę dostępu do niektórych funkcji. Zostałeś ostrzeżony!</string>
-    <string name="oplus_extras_dialog">OK</string>
+    <string name="nord_lab_title">Dodatkowe funkcje OnePlusa</string>
+    <string name="nord_lab_summary">Dostosuj ustawienia urządzenia</string>
+    <string name="nord_lab_warning_title">Uwaga</string>
+    <string name="nord_lab_warning_text">Większość z tych funkcji zależy od określonych węzłów jądra. Wgrywając własne jądro ryzykujesz utratę dostępu do niektórych funkcji. Zostałeś ostrzeżony!</string>
+    <string name="nord_lab_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Suwak powiadomień</string>
     <string name="notification_slider_title">Ustawienia suwaka powiadomień</string>
@@ -211,7 +211,7 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Kurs portfela</string>
-    <string name="touchscreen_gesture_action_device_extras">OPlusExtras</string>
+    <string name="touchscreen_gesture_action_device_extras">NordLab</string>
     <string name="touchscreen_gesture_action_google_maps">Mapy Google</string>
     <string name="touchscreen_gesture_action_google_search">Wyszukiwarka Google</string>
     <string name="game_mode_title">Tryb gry</string>
