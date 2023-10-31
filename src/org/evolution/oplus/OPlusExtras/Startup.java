@@ -10,6 +10,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.UserHandle;
 import android.provider.Settings;
 import androidx.preference.PreferenceManager;
 
@@ -21,6 +22,7 @@ import org.evolution.oplus.OPlusExtras.preferences.*;
 import org.evolution.oplus.OPlusExtras.refreshrate.RefreshUtils;
 import org.evolution.oplus.OPlusExtras.services.FPSInfoService;
 import org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
+import org.evolution.oplus.OPlusExtras.services.SimCardListenerService;
 
 public class Startup extends BroadcastReceiver {
 
@@ -95,8 +97,9 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
         restore(USB2FastChargeModeSwitch.getFile(context), enabled);
         }
+        context.startServiceAsUser(new Intent(context, SimCardListenerService.class), UserHandle.SYSTEM);
     }
-
+    
     private void restore(String file, boolean enabled) {
         if (file == null) {
             return;

@@ -19,10 +19,14 @@ android_app {
     platform_apis: true,
     system_ext_specific: true,
     privileged: true,
+    required: [
+        "privapp_whitelist_OPlusExtras",
+    ],
 
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
+        "android.hidl.manager-V1.0-java",
         "particles",
     ],
 
@@ -31,6 +35,14 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_OPlusExtras",
+    sub_dir: "permissions",
+    src: "privapp-permissions-org.evolution.oplus.OPlusExtras.xml",
+    filename_from_src: true,
+    system_ext_specific: true,
 }
 
 sh_binary {

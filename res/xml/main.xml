@@ -199,6 +199,22 @@
             settings:units=""
             android:defaultValue="3" />
     </PreferenceCategory>
+    
+    <!-- Start of network Category -->
+    <PreferenceCategory
+        android:key="network"
+        android:title="@string/network_title">
+         
+        <Preference
+          android:key="nr_mode_switch"
+          android:persistent="false"
+          android:title="@string/nr_mode_switch_title"
+          android:summary="@string/nr_mode_switch_summary">
+          <intent android:action="android.intent.action.MAIN"
+                  android:targetPackage="org.evolution.oplus.OPlusExtras"
+                  android:targetClass="org.evolution.oplus.OPlusExtras.nrmode.NrModeSettingsActivity" />
+        </Preference>
+     </PreferenceCategory>
 
     <!-- Start of power Category -->
     <PreferenceCategory
